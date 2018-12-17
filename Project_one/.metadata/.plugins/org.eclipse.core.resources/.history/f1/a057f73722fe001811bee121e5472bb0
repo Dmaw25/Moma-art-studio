@@ -1,0 +1,5 @@
+package com.rev.Dao;
+
+public interface ManagerDao {
+
+}

@@ -1,0 +1,28 @@
+package com.rev.Servlets;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.rev.Beans.Employee;
+
+
+public class Services {
+	
+	private ObjectMapper om = new ObjectMapper();
+
+	public String getBearsJSON(){
+		List<Employee> employeeList = new ArrayList<>();
+		employeeList.add(new Employee(4, 0, "Bertha", "Pavilion", null, null, null, 400, null, null, null, null, null, null, null, null, null, null));
+		employeeList.add(new Employee(6, 0, "Fred", "Mercury", null, null, null, 402, null, null, null, null, null, null, null, null, null, null));
+		String employeeString = "";
+		try {
+			employeeString = om.writeValueAsString(employeeList);
+		} catch (JsonProcessingException e) {
+			e.printStackTrace();
+		}
+		return employeeString;
+	}
+
+}

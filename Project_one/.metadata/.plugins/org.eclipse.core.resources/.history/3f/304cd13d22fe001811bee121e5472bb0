@@ -1,0 +1,7 @@
+package com.rev.DaoImpl;
+
+import com.rev.Dao.ManagerDao;
+
+public class ManagerDaoImpl implements ManagerDao {
+
+}

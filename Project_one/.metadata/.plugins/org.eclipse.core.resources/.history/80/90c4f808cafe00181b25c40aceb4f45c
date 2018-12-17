@@ -1,0 +1,29 @@
+package com.rev.Main;
+
+import java.io.IOException;
+import java.sql.Connection;
+import java.sql.SQLException;
+
+import com.rev.Dao.EmployeeDao;
+import com.rev.DaoImpl.EmployeeDaoImpl;
+import com.rev.util.ConnectionUtil;
+
+public class DriverManager {
+
+	public static void main(String[] args) {
+		init();
+		EmployeeDao bd = new EmployeeDaoImpl();
+
+	}
+	static void init() {
+		try {
+			Connection con = ConnectionUtil.getConnection("connection.properties");
+			System.out.println(con);
+		} catch (SQLException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+
+}

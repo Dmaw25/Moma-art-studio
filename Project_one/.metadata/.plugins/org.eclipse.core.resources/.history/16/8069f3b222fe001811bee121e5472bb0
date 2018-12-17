@@ -1,0 +1,24 @@
+package com.rev.Beans;
+
+import java.time.LocalDate;
+
+public class Employee {
+	int Employee_ID;
+	int Managers;
+	String UserName;
+	String Passwords;
+	String FirstName;
+	String LastName;
+	String Title;
+	int ReportsTo;
+	LocalDate BirthDate;
+	LocalDate HireDate;
+	String Address;
+	String City;
+	String States;
+	String Country;
+	String Postal_Code;
+	String Phone;
+    String Fax;
+	String Email;
+}
