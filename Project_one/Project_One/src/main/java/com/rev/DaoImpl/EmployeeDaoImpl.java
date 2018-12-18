@@ -21,9 +21,9 @@ public class EmployeeDaoImpl implements EmployeeDao {
 	public List<Employee> getEmployee() {
 		List<Employee> bl = new ArrayList<>();
 		try(Connection con = ConnectionUtil.getConnection(filename)){	
+			
 		String sql = "SELECT Employee_ID, Managers, UserName, Passwords, FirstName,LastName,\r\n" + 
-				"Title, ReportsTo, BirthDate, HireDate, Address, City,\r\n" + 
-				"States, Country, Postal_Code, Phone, Fax, Email\r\n"+
+				"ReportsTo, Account, Reimbursment\r\n"+
 				"From Employee\r\n";
 		Statement stmt = con.createStatement();
 		ResultSet rs = stmt.executeQuery(sql);
@@ -34,21 +34,11 @@ public class EmployeeDaoImpl implements EmployeeDao {
 			String password = rs.getString("Passwords");
 			String firstName = rs.getString("FirstName");
 			String lastName = rs.getString("LastName");
-			String title = rs.getString("Title");
 			int reportTo = rs.getInt("ReportsTo");
-			LocalDate birthDate = rs.getDate("BirthDate").toLocalDate();
-			LocalDate hireDate = rs.getDate("HireDate").toLocalDate(); 
-			String address = rs.getString("Address");
-			String city = rs.getString("City");
-			String states = rs.getString("States");
-			String country = rs.getString("Country");
-			String postalCode = rs.getString("Postal_Code");
-			String phone = rs.getString("Phone");
-		    String fax = rs.getString("Fax");
-			String email = rs.getString("Email");			
+			int account = rs.getInt("Account");
+			int reimbursment = rs.getInt("Reimbursment");		
 			bl.add(new Employee(employeeId, managers, userName, password, firstName,lastName,
-					title, reportTo, birthDate, hireDate, address, city,
-					states, country, postalCode, phone, fax, email));			
+					 reportTo, account, reimbursment));			
 		}
 		} catch (SQLException e) {
 			e.printStackTrace();
@@ -63,8 +53,7 @@ public class EmployeeDaoImpl implements EmployeeDao {
 		Employee empl = null;
 		try(Connection con = ConnectionUtil.getConnection(filename)){	
 		String sql = "SELECT Employee_ID, Managers, UserName, Passwords, FirstName,LastName,\r\n" + 
-				"Title, ReportsTo, BirthDate, HireDate, Address, City,\r\n" + 
-				"States, Country, Postal_Code, Phone, Fax, Email\r\n"+
+				"ReportsTo, Account, Reimbursment"+
 				"From Employee\r\n" +
 				"Where Employee_ID = ?\r\n";
 		PreparedStatement pstmt = con.prepareStatement(sql);
@@ -77,22 +66,51 @@ public class EmployeeDaoImpl implements EmployeeDao {
 			String password = rs.getString("Passwords");
 			String firstName = rs.getString("FirstName");
 			String lastName = rs.getString("LastName");
-			String title = rs.getString("Title");
 			int reportTo = rs.getInt("ReportsTo");
-			LocalDate birthDate = rs.getDate("BirthDate").toLocalDate();
-			LocalDate hireDate = rs.getDate("HireDate").toLocalDate(); 
-			String address = rs.getString("Address");
-			String city = rs.getString("City");
-			String states = rs.getString("States");
-			String country = rs.getString("Country");
-			String postalCode = rs.getString("Postal_Code");
-			String phone = rs.getString("Phone");
-		    String fax = rs.getString("Fax");
-			String email = rs.getString("Email");			
+			int account = rs.getInt("Account");
+			int reimbursment = rs.getInt("Reimbursment");
+			
 			empl = new Employee(employeeId, managers, userName, password, firstName,lastName,
-					title, reportTo, birthDate, hireDate, address, city,
-					states, country, postalCode, phone, fax, email);			
+					 reportTo, account, reimbursment);			
 		}
+		} catch (SQLException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		return empl;
+	}
+
+	@Override
+	public Employee addEmployee(int j, int k, String user, String pass, String first, String last, String title, int report, LocalDate birth, LocalDate hired, String adress,String city,String state, String coun,String postal,String phone, String fax, String email) {
+		Employee empl = null;
+		try(Connection con = ConnectionUtil.getConnection(filename)){	
+		String sql = "Insert Into Accounts\r\n" + 
+				"Values(?, ?,?,?,?,?,?,?,"
+				+ "?,"
+				+ "?,"
+				+ "?,?,?,?,?,?,?,?)";
+		PreparedStatement pstmt = con.prepareStatement(sql);
+		pstmt.setInt(1,j);
+		pstmt.setInt(2, k);
+		pstmt.setString(3,user);
+		pstmt.setString(4,pass);
+		pstmt.setString(5,first);
+		pstmt.setString(6,last);
+		pstmt.setString(7, title);
+		pstmt.setInt(1,report);
+		//pstmt.setDate(1,birth);
+		//pstmt.setDate(1,hired);
+		pstmt.setString(1,adress);
+		pstmt.setString(1,city);
+		pstmt.setString(1, state);
+		pstmt.setString(1,coun);
+		pstmt.setString(1,postal);
+		pstmt.setString(1,phone);
+		pstmt.setString(1,fax);
+		pstmt.setString(1,email);
+		pstmt.executeUpdate();	
+		
 		} catch (SQLException e) {
 			e.printStackTrace();
 		} catch (IOException e) {

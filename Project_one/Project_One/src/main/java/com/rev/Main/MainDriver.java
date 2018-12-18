@@ -19,6 +19,7 @@ public class MainDriver {
 		Scanner sc = new Scanner(System.in);
 		int i = sc.nextInt();
 		DisplayMine(i);
+		sc.close();
 	}
 	static void init() {
 		try {
