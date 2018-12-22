@@ -1,5 +1,0 @@
-package com.rev.Dao;
-
-public interface EmployeeDao {
-
-}

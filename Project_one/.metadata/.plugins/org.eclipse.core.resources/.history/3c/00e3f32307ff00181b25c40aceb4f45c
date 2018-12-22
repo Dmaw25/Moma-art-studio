@@ -1,3 +1,0 @@
-url:jdbc:oracle:thin:@sparkdemo.cgcycxmjt5ph.eu-west-2.rds.amazonaws.com:1521:orcl
-username=dev
-password=Bleakart9

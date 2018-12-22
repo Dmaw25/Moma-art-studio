@@ -2,11 +2,15 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="com.rev.Moma"/>
+			<item value="com.rev.MomaProject"/>
 			<item value="com.rev.Project_One"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="Moma"/>
+			<item value="MomaProject"/>
 			<item value="Project_One"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -45,6 +49,8 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\Darius\Documents\GitHub\Moma-art-studio\Project_one\Project_One"/>
+			<item value="C:\Users\Darius\Documents\GitHub\Moma-art-studio\Project_one"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
