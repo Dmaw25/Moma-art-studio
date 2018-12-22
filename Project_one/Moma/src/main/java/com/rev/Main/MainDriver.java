@@ -31,7 +31,7 @@ public class MainDriver {
 	}
 	public static void DisplayAll()
 	{
-		System.out.println(bd.getEmployee());
+		//System.out.println(bd.getEmployee());
 	}
 	public static void DisplayMine(int Id)
 	{

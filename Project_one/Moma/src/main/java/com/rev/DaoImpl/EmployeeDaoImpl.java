@@ -89,14 +89,14 @@ public class EmployeeDaoImpl implements EmployeeDao {
 	public Employee getEmployeeById(int id) {
 		Employee empl = null;
 		try(Connection con = ConnectionUtil.getConnection(filename)){	
-		String sql = "SELECT E.Employee_ID, E.ReportsTo, Accounts.Account_ID, Accounts.Account_Type, Accounts.Balance, E.Managers, E.UserName, E.Passwords, E.FirstName,E.LastName, Reimbursments.Reimbursment_ID, Reimbursments.Status, Reimbursments.Amount, Reimbursments.Image 	\r\n" + 
-				"                From Employee E                 \r\n" + 
-				"				Inner Join Accounts \r\n" + 
-				"				On E.Account = Accounts.Account_ID                 \r\n" + 
-				"				Inner Join Reimbursments\r\n" + 
-				"				On E.Reimbursment = Reimbursments.Reimbursment_ID                \r\n" + 
-				"				Where E.Employee_ID = ?\r\n" + 
-				"                Order By E.Employee_ID";
+		String sql = "SELECT E.Employee_ID, E.ReportsTo,Accounts.Account_ID, Accounts.Account_Type, Accounts.Balance, E.Managers, E.UserName, E.Passwords, E.FirstName,E.LastName,Reimbursments.Reimbursment_ID, Reimbursments.Status, Reimbursments.Amount, Reimbursments.Image \r\n" + 
+				"				                From Employee E \r\n" + 
+				"								Inner Join Accounts \r\n" + 
+				"								On E.Account = Accounts.Employee_ID \r\n" + 
+				"								Inner Join Reimbursments \r\n" + 
+				"								On E.Reimbursment = Reimbursments.Employee_ID \r\n" + 
+				"								Where E.Employee_ID = ?\r\n" + 
+				"				                Order By E.Employee_ID\r\n";
 		PreparedStatement pstmt = con.prepareStatement(sql);
 		pstmt.setInt(1, id);
 		ResultSet rs = pstmt.executeQuery();
@@ -107,7 +107,7 @@ public class EmployeeDaoImpl implements EmployeeDao {
 			String password = rs.getString("Passwords");
 			String firstName = rs.getString("FirstName");
 			String lastName = rs.getString("LastName");	
-			int reportTo = rs.getInt("ReportTo");
+			int reportTo = rs.getInt("ReportsTo");
 			int accountId = rs.getInt("Account_ID");
 			String accountType = rs.getString("Account_Type");
 			double balance = rs.getDouble("Balance");

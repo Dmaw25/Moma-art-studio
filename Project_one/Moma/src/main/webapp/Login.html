@@ -8,7 +8,7 @@
 <body>
     <div class="login-page">
         <div class="form">
-            <form action="Home.html" method="post" class="register-form">
+            <form action="Login" method="post" class="register-form">
                 <input type="text" placeholder="username" required  />
                 <input type="email" placeholder="email" required />
                 <input type="password" placeholder="newpassword" pattern="" required />
@@ -17,7 +17,7 @@
                 <button>Get Started</button>
                 <p class="message">Already Registered<a href="#"> Login</a></p>
             </form>
-            <form action="Home.html" method="post" class="login-form">
+            <form action="Login" method="post" class="login-form">
                 <input type="text" placeholder="username" required name="username"/>
                 <input type="password" placeholder="password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" name="password"/>
                 <br />
@@ -26,7 +26,6 @@
             </form>
         </div>
     </div>
-    <script src="../js/Check.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script>
         $('.message a').click(function () {

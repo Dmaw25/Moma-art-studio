@@ -18,10 +18,13 @@ public class AuthenticationService {
 		
 	}
 	public Boolean manage = false;
-	public EmployeeDao empl = new EmployeeDaoImpl();
-	
+	public static EmployeeDao empl = new EmployeeDaoImpl();
+	public static void main(String[] args) {
+		System.out.println(empl.getEmployeeById(1));
+	}
 	public Employee isValidUser(Credentials cred)
 	{
+
 		List<Employee> empList = empl.getEmployee();
 		String user = cred.getUserName();
 		String pass = cred.getPassword();
