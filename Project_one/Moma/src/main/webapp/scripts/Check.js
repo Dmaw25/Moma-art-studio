@@ -13,7 +13,7 @@ function populateUser(){
 		//define behavior for no user returned 
 		if (data.session === null) {
 			console.log("data.session was null");
-			window.location = "http://localhost:7001/Moma/login";
+			window.location = "http://localhost:7001/Moma/Login";
 		} else {
 			//define behavior for user returned
 			user = data;

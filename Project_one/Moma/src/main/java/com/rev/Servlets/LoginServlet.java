@@ -11,7 +11,6 @@ import javax.servlet.http.HttpSession;
 
 import com.rev.Beans.Credentials;
 import com.rev.Beans.Employee;
-import com.rev.DaoImpl.EmployeeDaoImpl;
 import com.rev.Services.AuthenticationService;
 
 @WebServlet("/Login")
@@ -21,9 +20,9 @@ public class LoginServlet extends HttpServlet {
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
-	AuthenticationService autherize;
+	 AuthenticationService autherize = new AuthenticationService();
 	public LoginServlet() {
-		// TODO Auto-generated constructor stub
+		// 
 	}
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		req.getRequestDispatcher("Login.html").forward(req, resp);
@@ -32,17 +31,16 @@ public class LoginServlet extends HttpServlet {
 		System.out.println("handling request...");
 		HttpSession session = req.getSession();
 		resp.setContentType("text/html");
-		Credentials cred = new Credentials(req.getParameter("username"),req.getParameter("password"));
+		Credentials cred = new Credentials(0,req.getParameter("username"),req.getParameter("password"));
 		Employee e = autherize.isValidUser(cred);
+		System.out.println(e);
 		if(e != null)
 		{
+			System.out.println("TEST");
 			session.setAttribute("firstName", e.getFirstName());
 			session.setAttribute("lastName", e.getLastName());
-			session.setAttribute("username", e.getUserName());
-			session.setAttribute("accounts", e.getAccount());
 			session.setAttribute("managers", e.getManagers());
 			session.setAttribute("reportsTo", e.getReportsTo());
-			session.setAttribute("reimbursment", e.getReimbursment());
 			session.setAttribute("problem",null);
 			resp.sendRedirect("Profile");
 		}

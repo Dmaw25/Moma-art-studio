@@ -31,10 +31,11 @@ public class MainDriver {
 	}
 	public static void DisplayAll()
 	{
-		//System.out.println(bd.getEmployee());
+		System.out.println(bd.getEmployee());
 	}
 	public static void DisplayMine(int Id)
 	{
-		System.out.println(bd.getEmployeeById(Id));
+		//Employee e = bd.getEmployeeById(1);
+		//System.out.println(bd.getEmployeeById(Id));
 	}
 }

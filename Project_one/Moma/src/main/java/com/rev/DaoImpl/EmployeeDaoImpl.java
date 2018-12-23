@@ -8,7 +8,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
-import java.time.LocalDate;
+
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
@@ -54,9 +54,13 @@ public class EmployeeDaoImpl implements EmployeeDao {
 		List<Employee> bl = new ArrayList<>();
 		try(Connection con = ConnectionUtil.getConnection(filename)){	
 			
-		String sql = "SELECT Employee_ID, Managers, UserName, Passwords, FirstName,LastName,\r\n" + 
-				"ReportsTo, Account, Reimbursment\r\n"+
-				"From Employee\r\n";
+		String sql = "SELECT E.Employee_ID, E.ReportsTo,Accounts.Account_ID, Accounts.Account_Type, Accounts.Balance, E.Managers, E.UserName, E.Passwords, E.FirstName,E.LastName,Reimbursments.Reimbursment_ID, Reimbursments.Status, Reimbursments.Amount, Reimbursments.Image \r\n" + 
+				"				                From Employee E \r\n" + 
+				"								Inner Join Accounts \r\n" + 
+				"								On E.Employee_ID = Accounts.Employee_ID \r\n" + 
+				"								Inner Join Reimbursments \r\n" + 
+				"								On E.Employee_ID = Reimbursments.Employee_ID \r\n" + 
+				"				                Order By E.Employee_ID\r\n";
 		Statement stmt = con.createStatement();
 		ResultSet rs = stmt.executeQuery(sql);
 		while(rs.next()) {
@@ -66,16 +70,9 @@ public class EmployeeDaoImpl implements EmployeeDao {
 			String password = rs.getString("Passwords");
 			String firstName = rs.getString("FirstName");
 			String lastName = rs.getString("LastName");	
-			int reportTo = rs.getInt("ReportTo");
-			int accountId = rs.getInt("Account_ID");
-			String accountType = rs.getString("Account_Type");
-			double balance = rs.getDouble("Balance");
-			int reimbursment_Id = rs.getInt("Reimbursment_ID");
-			String status = rs.getString("Status");
-			double amount = rs.getInt("Amount");
-			int image = rs.getInt("Image");
+			int reportTo = rs.getInt("ReportsTo");
 			bl.add(new Employee(employeeId, managers, userName, password, firstName,lastName,
-					 reportTo, new Account(accountId,accountType,balance), new Reimbursment(reimbursment_Id,status,amount,image)));			
+					 reportTo));			
 		}
 		} catch (SQLException e) {
 			e.printStackTrace();
@@ -92,9 +89,9 @@ public class EmployeeDaoImpl implements EmployeeDao {
 		String sql = "SELECT E.Employee_ID, E.ReportsTo,Accounts.Account_ID, Accounts.Account_Type, Accounts.Balance, E.Managers, E.UserName, E.Passwords, E.FirstName,E.LastName,Reimbursments.Reimbursment_ID, Reimbursments.Status, Reimbursments.Amount, Reimbursments.Image \r\n" + 
 				"				                From Employee E \r\n" + 
 				"								Inner Join Accounts \r\n" + 
-				"								On E.Account = Accounts.Employee_ID \r\n" + 
+				"								On E.Employee_ID = Accounts.Employee_ID \r\n" + 
 				"								Inner Join Reimbursments \r\n" + 
-				"								On E.Reimbursment = Reimbursments.Employee_ID \r\n" + 
+				"								On E.Employee_ID = Reimbursments.Employee_ID \r\n" + 
 				"								Where E.Employee_ID = ?\r\n" + 
 				"				                Order By E.Employee_ID\r\n";
 		PreparedStatement pstmt = con.prepareStatement(sql);
@@ -108,15 +105,8 @@ public class EmployeeDaoImpl implements EmployeeDao {
 			String firstName = rs.getString("FirstName");
 			String lastName = rs.getString("LastName");	
 			int reportTo = rs.getInt("ReportsTo");
-			int accountId = rs.getInt("Account_ID");
-			String accountType = rs.getString("Account_Type");
-			double balance = rs.getDouble("Balance");
-			int reimbursment_Id = rs.getInt("Reimbursment_ID");
-			String status = rs.getString("Status");
-			double amount = rs.getInt("Amount");
-			int image = rs.getInt("Image");
 			empl = new Employee(employeeId, managers, userName, password, firstName,lastName,
-					 reportTo, new Account(accountId,accountType,balance), new Reimbursment(reimbursment_Id,status,amount,image));			
+					 reportTo);			
 		}
 		} catch (SQLException e) {
 			e.printStackTrace();

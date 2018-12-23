@@ -28,7 +28,4 @@ public class ProfileServlet extends HttpServlet{
 			resp.sendRedirect("Login");
 		}
 	}
-	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-	
-	}
 }

@@ -1,15 +1,17 @@
 package com.rev.Beans;
 
 public class Account {
-	public Account(int account_ID, String account_Type, double balance) {
+	public Account(int account_ID, String account_Type, double balance, int employee_ID) {
 		super();
 		Account_ID = account_ID;
 		Account_Type = account_Type;
 		Balance = balance;
+		Employee_ID = employee_ID;
 	}
 	private int Account_ID;
 	private String Account_Type;
 	private double Balance;
+	private int Employee_ID;
 	public int getAccount_ID() {
 		return Account_ID;
 	}
@@ -37,6 +39,7 @@ public class Account {
 		long temp;
 		temp = Double.doubleToLongBits(Balance);
 		result = prime * result + (int) (temp ^ (temp >>> 32));
+		result = prime * result + Employee_ID;
 		return result;
 	}
 	@Override
@@ -57,10 +60,19 @@ public class Account {
 			return false;
 		if (Double.doubleToLongBits(Balance) != Double.doubleToLongBits(other.Balance))
 			return false;
+		if (Employee_ID != other.Employee_ID)
+			return false;
 		return true;
 	}
 	@Override
 	public String toString() {
-		return "Account [Account_ID=" + Account_ID + ", Account_Type=" + Account_Type + ", Balance=" + Balance + "]";
+		return "Account [Account_ID=" + Account_ID + ", Account_Type=" + Account_Type + ", Balance=" + Balance
+				+ ", Employee_ID=" + Employee_ID + "]";
+	}
+	public int getEmployee_ID() {
+		return Employee_ID;
+	}
+	public void setEmployee_ID(int employee_ID) {
+		Employee_ID = employee_ID;
 	}
 }
