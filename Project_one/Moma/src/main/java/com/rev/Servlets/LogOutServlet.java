@@ -26,7 +26,7 @@ public class LogOutServlet extends HttpServlet {
 		if(session != null) {
 			session.invalidate();
 		}
-		pw.write("<p> You have logged out</p>");
+		//pw.write("<p> You have logged out</p>");
 	}
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		doGet(req,resp);

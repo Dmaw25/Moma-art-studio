@@ -44,7 +44,7 @@ public class LoginServlet extends HttpServlet {
 			session.setAttribute("lastName", e.getLastName());
 			session.setAttribute("reportsTo", e.getReportsTo());
 			session.setAttribute("problem",null);
-			resp.sendRedirect("Profile");
+			resp.sendRedirect("LHome.html");
 			
 		}
 		else {
