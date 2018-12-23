@@ -3120,3 +3120,922 @@ java.lang.IllegalArgumentException
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-23 12:36:34.948
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:40:39.215
+!MESSAGE Publishing beginning.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:40:39.215
+!MESSAGE Module changed:[Moma]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:40:39.231
+!MESSAGE Total deleted modules: 0
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:40:39.262
+!MESSAGE Module changed:[Moma]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:40:39.262
+!MESSAGE Module Status: -Moma (change) (redeploy)
+
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:40:39.324
+!MESSAGE Status INFO: oracle.eclipse.tools.weblogic code=2000 ***dm.undeploy (undeploy) _auto_generated_ear_ null from targets [{Target=myserver, WebLogicTargetType=server, Name=_auto_generated_ear_}]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:40:39.606
+!MESSAGE Waiting on ProgressObject:@311790735
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:40:39.715
+!MESSAGE ProgressObject completed :@311790735
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:40:39.715
+!MESSAGE Module _auto_generated_ear_ was undeployed from myserver sucessfully.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:40:39.762
+!MESSAGE ***dm.distribute (deploy) module _auto_generated_ear_
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:40:39.965
+!MESSAGE Waiting on ProgressObject:@42915659
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:40:40.184
+!MESSAGE ProgressObject completed :@42915659
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:40:40.184
+!MESSAGE _auto_generated_ear_ deployed successfully.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:40:40.199
+!MESSAGE ***dm.start (startModule) _auto_generated_ear_
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:40:40.356
+!MESSAGE Waiting on ProgressObject:@65083282
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:40:40.466
+!MESSAGE ProgressObject completed :@65083282
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:40:40.466
+!MESSAGE Started _auto_generated_ear_
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:40:40.481
+!MESSAGE Module _auto_generated_ear_ deployed successfully.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:40:40.481
+!MESSAGE Publishing finished.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-23 12:44:03.792
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-23 12:44:03.823
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-23 12:45:21.878
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-23 12:45:21.893
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:45:26.402
+!MESSAGE Publishing beginning.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:45:26.418
+!MESSAGE Module changed:[Moma]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:45:26.418
+!MESSAGE Total deleted modules: 0
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:45:26.449
+!MESSAGE Module changed:[Moma]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:45:26.449
+!MESSAGE Module Status: -Moma (change) (redeploy)
+
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:45:26.465
+!MESSAGE Status INFO: oracle.eclipse.tools.weblogic code=2000 ***dm.undeploy (undeploy) _auto_generated_ear_ null from targets [{Target=myserver, WebLogicTargetType=server, Name=_auto_generated_ear_}]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:45:26.637
+!MESSAGE Waiting on ProgressObject:@1521411349
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:45:26.746
+!MESSAGE ProgressObject completed :@1521411349
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:45:26.746
+!MESSAGE Module _auto_generated_ear_ was undeployed from myserver sucessfully.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:45:26.793
+!MESSAGE ***dm.distribute (deploy) module _auto_generated_ear_
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:45:26.996
+!MESSAGE Waiting on ProgressObject:@1331301447
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:45:27.220
+!MESSAGE ProgressObject completed :@1331301447
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:45:27.220
+!MESSAGE _auto_generated_ear_ deployed successfully.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:45:27.236
+!MESSAGE ***dm.start (startModule) _auto_generated_ear_
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:45:27.392
+!MESSAGE Waiting on ProgressObject:@1497289069
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:45:27.502
+!MESSAGE ProgressObject completed :@1497289069
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:45:27.517
+!MESSAGE Started _auto_generated_ear_
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:45:27.517
+!MESSAGE Module _auto_generated_ear_ deployed successfully.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:45:27.533
+!MESSAGE Publishing finished.
+
+!ENTRY oracle.eclipse.tools.common.services 4 2 2018-12-23 12:47:38.883
+!MESSAGE Problems occurred when invoking code from plug-in: "oracle.eclipse.tools.common.services".
+!STACK 0
+java.lang.NullPointerException
+	at oracle.eclipse.tools.webtier.jsp.collection.JSPTagCollector.visit(JSPTagCollector.java:119)
+	at oracle.eclipse.tools.application.common.services.collection.internal.StructuredModelCollectionParticipant$Visitor.visit(StructuredModelCollectionParticipant.java:228)
+	at oracle.eclipse.tools.common.services.dependency.structuredmodel.internal.VisitableDOMDocument.accept(VisitableDOMDocument.java:35)
+	at oracle.eclipse.tools.common.services.dependency.structuredmodel.internal.VisitableDOMModel.accept(VisitableDOMModel.java:55)
+	at oracle.eclipse.tools.application.common.services.collection.internal.StructuredModelCollectionParticipant.collect(StructuredModelCollectionParticipant.java:158)
+	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList$4.run(CollectionParticipantList.java:106)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList.collect(CollectionParticipantList.java:103)
+	at oracle.eclipse.tools.common.services.dependency.model.internal.ResourceSetCommand.execute(ResourceSetCommand.java:102)
+	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob$SafeRunnable.run(CommandSetJob.java:261)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.runCommand(CommandSetJob.java:196)
+	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY oracle.eclipse.tools.common.services 4 4 2018-12-23 12:47:38.899
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at oracle.eclipse.tools.webtier.jsp.collection.JSPTagCollector.visit(JSPTagCollector.java:119)
+	at oracle.eclipse.tools.application.common.services.collection.internal.StructuredModelCollectionParticipant$Visitor.visit(StructuredModelCollectionParticipant.java:228)
+	at oracle.eclipse.tools.common.services.dependency.structuredmodel.internal.VisitableDOMDocument.accept(VisitableDOMDocument.java:35)
+	at oracle.eclipse.tools.common.services.dependency.structuredmodel.internal.VisitableDOMModel.accept(VisitableDOMModel.java:55)
+	at oracle.eclipse.tools.application.common.services.collection.internal.StructuredModelCollectionParticipant.collect(StructuredModelCollectionParticipant.java:158)
+	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList$4.run(CollectionParticipantList.java:106)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList.collect(CollectionParticipantList.java:103)
+	at oracle.eclipse.tools.common.services.dependency.model.internal.ResourceSetCommand.execute(ResourceSetCommand.java:102)
+	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob$SafeRunnable.run(CommandSetJob.java:261)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.runCommand(CommandSetJob.java:196)
+	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-23 12:47:39.520
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-23 12:47:39.535
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY oracle.eclipse.tools.common.services 4 2 2018-12-23 12:48:15.013
+!MESSAGE Problems occurred when invoking code from plug-in: "oracle.eclipse.tools.common.services".
+!STACK 0
+java.lang.NullPointerException
+	at oracle.eclipse.tools.webtier.jsp.collection.JSPTagCollector.visit(JSPTagCollector.java:119)
+	at oracle.eclipse.tools.application.common.services.collection.internal.StructuredModelCollectionParticipant$Visitor.visit(StructuredModelCollectionParticipant.java:228)
+	at oracle.eclipse.tools.common.services.dependency.structuredmodel.internal.VisitableDOMDocument.accept(VisitableDOMDocument.java:35)
+	at oracle.eclipse.tools.common.services.dependency.structuredmodel.internal.VisitableDOMModel.accept(VisitableDOMModel.java:55)
+	at oracle.eclipse.tools.application.common.services.collection.internal.StructuredModelCollectionParticipant.collect(StructuredModelCollectionParticipant.java:158)
+	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList$4.run(CollectionParticipantList.java:106)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList.collect(CollectionParticipantList.java:103)
+	at oracle.eclipse.tools.common.services.dependency.model.internal.ResourceSetCommand.execute(ResourceSetCommand.java:102)
+	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob$SafeRunnable.run(CommandSetJob.java:261)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.runCommand(CommandSetJob.java:196)
+	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY oracle.eclipse.tools.common.services 4 4 2018-12-23 12:48:15.013
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at oracle.eclipse.tools.webtier.jsp.collection.JSPTagCollector.visit(JSPTagCollector.java:119)
+	at oracle.eclipse.tools.application.common.services.collection.internal.StructuredModelCollectionParticipant$Visitor.visit(StructuredModelCollectionParticipant.java:228)
+	at oracle.eclipse.tools.common.services.dependency.structuredmodel.internal.VisitableDOMDocument.accept(VisitableDOMDocument.java:35)
+	at oracle.eclipse.tools.common.services.dependency.structuredmodel.internal.VisitableDOMModel.accept(VisitableDOMModel.java:55)
+	at oracle.eclipse.tools.application.common.services.collection.internal.StructuredModelCollectionParticipant.collect(StructuredModelCollectionParticipant.java:158)
+	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList$4.run(CollectionParticipantList.java:106)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList.collect(CollectionParticipantList.java:103)
+	at oracle.eclipse.tools.common.services.dependency.model.internal.ResourceSetCommand.execute(ResourceSetCommand.java:102)
+	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob$SafeRunnable.run(CommandSetJob.java:261)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.runCommand(CommandSetJob.java:196)
+	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-23 12:48:15.153
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-23 12:48:15.153
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-23 12:48:23.990
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-23 12:48:24.006
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY oracle.eclipse.tools.common.services 4 2 2018-12-23 12:50:06.468
+!MESSAGE Problems occurred when invoking code from plug-in: "oracle.eclipse.tools.common.services".
+!STACK 0
+java.lang.NullPointerException
+	at oracle.eclipse.tools.webtier.jsp.collection.JSPTagCollector.visit(JSPTagCollector.java:119)
+	at oracle.eclipse.tools.application.common.services.collection.internal.StructuredModelCollectionParticipant$Visitor.visit(StructuredModelCollectionParticipant.java:228)
+	at oracle.eclipse.tools.common.services.dependency.structuredmodel.internal.VisitableDOMDocument.accept(VisitableDOMDocument.java:35)
+	at oracle.eclipse.tools.common.services.dependency.structuredmodel.internal.VisitableDOMModel.accept(VisitableDOMModel.java:55)
+	at oracle.eclipse.tools.application.common.services.collection.internal.StructuredModelCollectionParticipant.collect(StructuredModelCollectionParticipant.java:158)
+	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList$4.run(CollectionParticipantList.java:106)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList.collect(CollectionParticipantList.java:103)
+	at oracle.eclipse.tools.common.services.dependency.model.internal.ResourceSetCommand.execute(ResourceSetCommand.java:102)
+	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob$SafeRunnable.run(CommandSetJob.java:261)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.runCommand(CommandSetJob.java:196)
+	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY oracle.eclipse.tools.common.services 4 4 2018-12-23 12:50:06.468
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at oracle.eclipse.tools.webtier.jsp.collection.JSPTagCollector.visit(JSPTagCollector.java:119)
+	at oracle.eclipse.tools.application.common.services.collection.internal.StructuredModelCollectionParticipant$Visitor.visit(StructuredModelCollectionParticipant.java:228)
+	at oracle.eclipse.tools.common.services.dependency.structuredmodel.internal.VisitableDOMDocument.accept(VisitableDOMDocument.java:35)
+	at oracle.eclipse.tools.common.services.dependency.structuredmodel.internal.VisitableDOMModel.accept(VisitableDOMModel.java:55)
+	at oracle.eclipse.tools.application.common.services.collection.internal.StructuredModelCollectionParticipant.collect(StructuredModelCollectionParticipant.java:158)
+	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList$4.run(CollectionParticipantList.java:106)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList.collect(CollectionParticipantList.java:103)
+	at oracle.eclipse.tools.common.services.dependency.model.internal.ResourceSetCommand.execute(ResourceSetCommand.java:102)
+	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob$SafeRunnable.run(CommandSetJob.java:261)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.runCommand(CommandSetJob.java:196)
+	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-23 12:50:06.593
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-23 12:50:06.609
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:50:15.797
+!MESSAGE Publishing beginning.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:50:15.797
+!MESSAGE Module changed:[Moma]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:50:15.797
+!MESSAGE Total deleted modules: 0
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:50:15.829
+!MESSAGE Module changed:[Moma]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:50:15.844
+!MESSAGE Module Status: -Moma (change) (redeploy)
+
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:50:15.860
+!MESSAGE Status INFO: oracle.eclipse.tools.weblogic code=2000 ***dm.undeploy (undeploy) _auto_generated_ear_ null from targets [{Target=myserver, WebLogicTargetType=server, Name=_auto_generated_ear_}]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:50:16.029
+!MESSAGE Waiting on ProgressObject:@646962592
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:50:16.139
+!MESSAGE ProgressObject completed :@646962592
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:50:16.139
+!MESSAGE Module _auto_generated_ear_ was undeployed from myserver sucessfully.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:50:16.186
+!MESSAGE ***dm.distribute (deploy) module _auto_generated_ear_
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:50:16.389
+!MESSAGE Waiting on ProgressObject:@74725762
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:50:16.607
+!MESSAGE ProgressObject completed :@74725762
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:50:16.607
+!MESSAGE _auto_generated_ear_ deployed successfully.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:50:16.623
+!MESSAGE ***dm.start (startModule) _auto_generated_ear_
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:50:16.795
+!MESSAGE Waiting on ProgressObject:@1066824467
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:50:16.909
+!MESSAGE ProgressObject completed :@1066824467
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:50:16.909
+!MESSAGE Started _auto_generated_ear_
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:50:16.925
+!MESSAGE Module _auto_generated_ear_ deployed successfully.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:50:16.925
+!MESSAGE Publishing finished.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-23 12:51:36.887
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-23 12:51:36.903
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-23 12:52:53.297
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-23 12:52:53.312
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-23 12:55:26.509
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-23 12:55:26.525
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-23 12:55:32.311
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-23 12:55:32.327
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-23 12:55:38.958
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-23 12:55:38.974
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-23 12:55:43.559
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-23 12:55:43.575
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-23 12:55:54.419
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-23 12:55:54.435
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-23 12:55:58.391
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-23 12:55:58.406
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-23 12:56:02.454
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-23 12:56:02.469
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:56:15.968
+!MESSAGE Publishing beginning.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:56:15.984
+!MESSAGE Module changed:[Moma]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:56:15.984
+!MESSAGE Total deleted modules: 0
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:56:16.015
+!MESSAGE Module changed:[Moma]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:56:16.031
+!MESSAGE Module Status: -Moma (change) (redeploy)
+
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:56:16.047
+!MESSAGE Status INFO: oracle.eclipse.tools.weblogic code=2000 ***dm.undeploy (undeploy) _auto_generated_ear_ null from targets [{Target=myserver, WebLogicTargetType=server, Name=_auto_generated_ear_}]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:56:16.224
+!MESSAGE Waiting on ProgressObject:@1285271220
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:56:16.334
+!MESSAGE ProgressObject completed :@1285271220
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:56:16.334
+!MESSAGE Module _auto_generated_ear_ was undeployed from myserver sucessfully.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:56:16.381
+!MESSAGE ***dm.distribute (deploy) module _auto_generated_ear_
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:56:16.599
+!MESSAGE Waiting on ProgressObject:@1896840694
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:56:16.818
+!MESSAGE ProgressObject completed :@1896840694
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:56:16.818
+!MESSAGE _auto_generated_ear_ deployed successfully.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:56:16.834
+!MESSAGE ***dm.start (startModule) _auto_generated_ear_
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:56:17.010
+!MESSAGE Waiting on ProgressObject:@1985127260
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:56:17.124
+!MESSAGE ProgressObject completed :@1985127260
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:56:17.129
+!MESSAGE Started _auto_generated_ear_
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:56:17.135
+!MESSAGE Module _auto_generated_ear_ deployed successfully.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:56:17.141
+!MESSAGE Publishing finished.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-23 12:56:17.167
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-23 12:56:17.182
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-23 12:57:35.355
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-23 12:57:35.371
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-23 12:59:07.875
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-23 12:59:07.890
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:59:20.084
+!MESSAGE Publishing beginning.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:59:20.084
+!MESSAGE Module changed:[Moma]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:59:20.084
+!MESSAGE Total deleted modules: 0
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:59:20.115
+!MESSAGE Module changed:[Moma]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:59:20.115
+!MESSAGE Module Status: -Moma (change) (redeploy)
+
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:59:20.131
+!MESSAGE Status INFO: oracle.eclipse.tools.weblogic code=2000 ***dm.undeploy (undeploy) _auto_generated_ear_ null from targets [{Target=myserver, WebLogicTargetType=server, Name=_auto_generated_ear_}]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:59:20.303
+!MESSAGE Waiting on ProgressObject:@784914540
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:59:20.412
+!MESSAGE ProgressObject completed :@784914540
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:59:20.412
+!MESSAGE Module _auto_generated_ear_ was undeployed from myserver sucessfully.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:59:20.459
+!MESSAGE ***dm.distribute (deploy) module _auto_generated_ear_
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:59:20.662
+!MESSAGE Waiting on ProgressObject:@607040570
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:59:20.881
+!MESSAGE ProgressObject completed :@607040570
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:59:20.881
+!MESSAGE _auto_generated_ear_ deployed successfully.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:59:20.896
+!MESSAGE ***dm.start (startModule) _auto_generated_ear_
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:59:21.062
+!MESSAGE Waiting on ProgressObject:@1866249205
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:59:21.187
+!MESSAGE ProgressObject completed :@1866249205
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:59:21.203
+!MESSAGE Started _auto_generated_ear_
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:59:21.203
+!MESSAGE Module _auto_generated_ear_ deployed successfully.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 12:59:21.218
+!MESSAGE Publishing finished.
+
+!ENTRY oracle.eclipse.tools.common.services 4 2 2018-12-23 13:04:19.423
+!MESSAGE Problems occurred when invoking code from plug-in: "oracle.eclipse.tools.common.services".
+!STACK 0
+java.lang.NullPointerException
+	at oracle.eclipse.tools.webtier.jsp.collection.JSPTagCollector.visit(JSPTagCollector.java:119)
+	at oracle.eclipse.tools.application.common.services.collection.internal.StructuredModelCollectionParticipant$Visitor.visit(StructuredModelCollectionParticipant.java:228)
+	at oracle.eclipse.tools.common.services.dependency.structuredmodel.internal.VisitableDOMDocument.accept(VisitableDOMDocument.java:35)
+	at oracle.eclipse.tools.common.services.dependency.structuredmodel.internal.VisitableDOMModel.accept(VisitableDOMModel.java:55)
+	at oracle.eclipse.tools.application.common.services.collection.internal.StructuredModelCollectionParticipant.collect(StructuredModelCollectionParticipant.java:158)
+	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList$4.run(CollectionParticipantList.java:106)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList.collect(CollectionParticipantList.java:103)
+	at oracle.eclipse.tools.common.services.dependency.model.internal.ResourceSetCommand.execute(ResourceSetCommand.java:102)
+	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob$SafeRunnable.run(CommandSetJob.java:261)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.runCommand(CommandSetJob.java:196)
+	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY oracle.eclipse.tools.common.services 4 4 2018-12-23 13:04:19.439
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at oracle.eclipse.tools.webtier.jsp.collection.JSPTagCollector.visit(JSPTagCollector.java:119)
+	at oracle.eclipse.tools.application.common.services.collection.internal.StructuredModelCollectionParticipant$Visitor.visit(StructuredModelCollectionParticipant.java:228)
+	at oracle.eclipse.tools.common.services.dependency.structuredmodel.internal.VisitableDOMDocument.accept(VisitableDOMDocument.java:35)
+	at oracle.eclipse.tools.common.services.dependency.structuredmodel.internal.VisitableDOMModel.accept(VisitableDOMModel.java:55)
+	at oracle.eclipse.tools.application.common.services.collection.internal.StructuredModelCollectionParticipant.collect(StructuredModelCollectionParticipant.java:158)
+	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList$4.run(CollectionParticipantList.java:106)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList.collect(CollectionParticipantList.java:103)
+	at oracle.eclipse.tools.common.services.dependency.model.internal.ResourceSetCommand.execute(ResourceSetCommand.java:102)
+	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob$SafeRunnable.run(CommandSetJob.java:261)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.runCommand(CommandSetJob.java:196)
+	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-23 13:04:19.555
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-23 13:04:19.570
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 13:05:56.501
+!MESSAGE Publishing beginning.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 13:05:56.516
+!MESSAGE Module not changed:[Moma]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 13:05:56.516
+!MESSAGE Total deleted modules: 0
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 13:05:56.548
+!MESSAGE Module Status: -Moma
+
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 13:05:56.594
+!MESSAGE Status INFO: oracle.eclipse.tools.weblogic code=2000 ***dm.undeploy (undeploy) _auto_generated_ear_ null from targets [{Target=myserver, WebLogicTargetType=server, Name=_auto_generated_ear_}]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 13:05:56.891
+!MESSAGE Waiting on ProgressObject:@523631688
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 13:05:57.001
+!MESSAGE ProgressObject completed :@523631688
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 13:05:57.016
+!MESSAGE Module _auto_generated_ear_ was undeployed from myserver sucessfully.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 13:05:57.048
+!MESSAGE ***dm.distribute (deploy) module _auto_generated_ear_
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 13:05:57.235
+!MESSAGE Waiting on ProgressObject:@1541862186
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 13:05:57.454
+!MESSAGE ProgressObject completed :@1541862186
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 13:05:57.454
+!MESSAGE _auto_generated_ear_ deployed successfully.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 13:05:57.470
+!MESSAGE ***dm.start (startModule) _auto_generated_ear_
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 13:05:57.657
+!MESSAGE Waiting on ProgressObject:@1738374906
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 13:05:57.782
+!MESSAGE ProgressObject completed :@1738374906
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 13:05:57.798
+!MESSAGE Started _auto_generated_ear_
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 13:05:57.798
+!MESSAGE Module _auto_generated_ear_ deployed successfully.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 13:05:57.813
+!MESSAGE Publishing finished.
+
+!ENTRY oracle.eclipse.tools.common.services 4 2 2018-12-23 13:06:42.671
+!MESSAGE Problems occurred when invoking code from plug-in: "oracle.eclipse.tools.common.services".
+!STACK 0
+java.lang.NullPointerException
+	at oracle.eclipse.tools.webtier.jsp.collection.JSPTagCollector.visit(JSPTagCollector.java:119)
+	at oracle.eclipse.tools.application.common.services.collection.internal.StructuredModelCollectionParticipant$Visitor.visit(StructuredModelCollectionParticipant.java:228)
+	at oracle.eclipse.tools.common.services.dependency.structuredmodel.internal.VisitableDOMDocument.accept(VisitableDOMDocument.java:35)
+	at oracle.eclipse.tools.common.services.dependency.structuredmodel.internal.VisitableDOMModel.accept(VisitableDOMModel.java:55)
+	at oracle.eclipse.tools.application.common.services.collection.internal.StructuredModelCollectionParticipant.collect(StructuredModelCollectionParticipant.java:158)
+	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList$4.run(CollectionParticipantList.java:106)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList.collect(CollectionParticipantList.java:103)
+	at oracle.eclipse.tools.common.services.dependency.model.internal.ResourceSetCommand.execute(ResourceSetCommand.java:102)
+	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob$SafeRunnable.run(CommandSetJob.java:261)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.runCommand(CommandSetJob.java:196)
+	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY oracle.eclipse.tools.common.services 4 4 2018-12-23 13:06:42.686
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at oracle.eclipse.tools.webtier.jsp.collection.JSPTagCollector.visit(JSPTagCollector.java:119)
+	at oracle.eclipse.tools.application.common.services.collection.internal.StructuredModelCollectionParticipant$Visitor.visit(StructuredModelCollectionParticipant.java:228)
+	at oracle.eclipse.tools.common.services.dependency.structuredmodel.internal.VisitableDOMDocument.accept(VisitableDOMDocument.java:35)
+	at oracle.eclipse.tools.common.services.dependency.structuredmodel.internal.VisitableDOMModel.accept(VisitableDOMModel.java:55)
+	at oracle.eclipse.tools.application.common.services.collection.internal.StructuredModelCollectionParticipant.collect(StructuredModelCollectionParticipant.java:158)
+	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList$4.run(CollectionParticipantList.java:106)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at oracle.eclipse.tools.common.services.dependency.model.internal.CollectionParticipantList.collect(CollectionParticipantList.java:103)
+	at oracle.eclipse.tools.common.services.dependency.model.internal.ResourceSetCommand.execute(ResourceSetCommand.java:102)
+	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob$SafeRunnable.run(CommandSetJob.java:261)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.runCommand(CommandSetJob.java:196)
+	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:99)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-23 13:06:42.796
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-23 13:06:42.811
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-23 13:08:14.374
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-23 13:08:14.389
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-23 13:08:18.582
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-23 13:08:18.598
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-23 13:09:13.019
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-23 13:09:13.019
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-23 13:09:28.219
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-23 13:09:28.234
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-23 13:09:46.254
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-23 13:09:46.269
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-23 13:09:49.098
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-23 13:09:49.113
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-23 13:10:04.762
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-23 13:10:04.777
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-23 13:10:18.371
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-23 13:10:18.386
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-23 13:10:25.781
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-23 13:10:25.797
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-23 13:11:31.978
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-23 13:11:31.978
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-23 13:11:48.213
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-23 13:11:48.229
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 13:11:56.220
+!MESSAGE Publishing beginning.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 13:11:56.220
+!MESSAGE Module changed:[Moma]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 13:11:56.220
+!MESSAGE Total deleted modules: 0
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 13:11:56.251
+!MESSAGE Module changed:[Moma]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 13:11:56.251
+!MESSAGE Module Status: -Moma (change) (redeploy)
+
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 13:11:56.267
+!MESSAGE Status INFO: oracle.eclipse.tools.weblogic code=2000 ***dm.undeploy (undeploy) _auto_generated_ear_ null from targets [{Target=myserver, WebLogicTargetType=server, Name=_auto_generated_ear_}]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 13:11:56.454
+!MESSAGE Waiting on ProgressObject:@531856891
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 13:11:56.564
+!MESSAGE ProgressObject completed :@531856891
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 13:11:56.564
+!MESSAGE Module _auto_generated_ear_ was undeployed from myserver sucessfully.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 13:11:56.610
+!MESSAGE ***dm.distribute (deploy) module _auto_generated_ear_
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 13:11:56.798
+!MESSAGE Waiting on ProgressObject:@1997452914
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 13:11:57.021
+!MESSAGE ProgressObject completed :@1997452914
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 13:11:57.021
+!MESSAGE _auto_generated_ear_ deployed successfully.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 13:11:57.021
+!MESSAGE ***dm.start (startModule) _auto_generated_ear_
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 13:11:57.208
+!MESSAGE Waiting on ProgressObject:@62128608
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 13:11:57.333
+!MESSAGE ProgressObject completed :@62128608
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 13:11:57.349
+!MESSAGE Started _auto_generated_ear_
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 13:11:57.349
+!MESSAGE Module _auto_generated_ear_ deployed successfully.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 13:11:57.364
+!MESSAGE Publishing finished.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-23 13:14:04.485
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-23 13:14:04.485
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 13:14:17.292
+!MESSAGE Publishing beginning.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 13:14:17.308
+!MESSAGE Module changed:[Moma]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 13:14:17.308
+!MESSAGE Total deleted modules: 0
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 13:14:17.323
+!MESSAGE Module changed:[Moma]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 13:14:17.339
+!MESSAGE Module Status: -Moma (change) (redeploy)
+
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 13:14:17.355
+!MESSAGE Status INFO: oracle.eclipse.tools.weblogic code=2000 ***dm.undeploy (undeploy) _auto_generated_ear_ null from targets [{Target=myserver, WebLogicTargetType=server, Name=_auto_generated_ear_}]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 13:14:17.527
+!MESSAGE Waiting on ProgressObject:@1427364864
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 13:14:17.636
+!MESSAGE ProgressObject completed :@1427364864
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 13:14:17.667
+!MESSAGE Module _auto_generated_ear_ was undeployed from myserver sucessfully.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 13:14:17.714
+!MESSAGE ***dm.distribute (deploy) module _auto_generated_ear_
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 13:14:17.902
+!MESSAGE Waiting on ProgressObject:@821092360
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 13:14:18.121
+!MESSAGE ProgressObject completed :@821092360
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 13:14:18.121
+!MESSAGE _auto_generated_ear_ deployed successfully.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 13:14:18.136
+!MESSAGE ***dm.start (startModule) _auto_generated_ear_
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 13:14:18.308
+!MESSAGE Waiting on ProgressObject:@824699506
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 13:14:18.433
+!MESSAGE ProgressObject completed :@824699506
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 13:14:18.449
+!MESSAGE Started _auto_generated_ear_
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 13:14:18.449
+!MESSAGE Module _auto_generated_ear_ deployed successfully.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 13:14:18.464
+!MESSAGE Publishing finished.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-23 13:17:59.183
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-23 13:17:59.199
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-23 13:18:31.327
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-23 13:18:31.342
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-23 13:18:38.642
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-23 13:18:38.658
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 13:18:53.265
+!MESSAGE Publishing beginning.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 13:18:53.265
+!MESSAGE Module changed:[Moma]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 13:18:53.265
+!MESSAGE Total deleted modules: 0
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 13:18:53.297
+!MESSAGE Module changed:[Moma]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 13:18:53.297
+!MESSAGE Module Status: -Moma (change) (redeploy)
+
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 13:18:53.312
+!MESSAGE Status INFO: oracle.eclipse.tools.weblogic code=2000 ***dm.undeploy (undeploy) _auto_generated_ear_ null from targets [{Target=myserver, WebLogicTargetType=server, Name=_auto_generated_ear_}]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 13:18:53.500
+!MESSAGE Waiting on ProgressObject:@928432201
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 13:18:53.609
+!MESSAGE ProgressObject completed :@928432201
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 13:18:53.625
+!MESSAGE Module _auto_generated_ear_ was undeployed from myserver sucessfully.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 13:18:53.656
+!MESSAGE ***dm.distribute (deploy) module _auto_generated_ear_
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 13:18:53.875
+!MESSAGE Waiting on ProgressObject:@15053614
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 13:18:54.097
+!MESSAGE ProgressObject completed :@15053614
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 13:18:54.097
+!MESSAGE _auto_generated_ear_ deployed successfully.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 13:18:54.112
+!MESSAGE ***dm.start (startModule) _auto_generated_ear_
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 13:18:54.300
+!MESSAGE Waiting on ProgressObject:@4270360
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 13:18:54.425
+!MESSAGE ProgressObject completed :@4270360
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 13:18:54.440
+!MESSAGE Started _auto_generated_ear_
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 13:18:54.456
+!MESSAGE Module _auto_generated_ear_ deployed successfully.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2018-12-23 13:18:54.456
+!MESSAGE Publishing finished.

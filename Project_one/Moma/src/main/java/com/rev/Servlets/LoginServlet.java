@@ -36,13 +36,16 @@ public class LoginServlet extends HttpServlet {
 		System.out.println(e);
 		if(e != null)
 		{
-			System.out.println("TEST");
+			session.setAttribute("id", e.getEmployee_ID());
+			session.setAttribute("managers", e.getManagers());
+			session.setAttribute("username", e.getUserName());
+			session.setAttribute("password", e.getPasswords());
 			session.setAttribute("firstName", e.getFirstName());
 			session.setAttribute("lastName", e.getLastName());
-			session.setAttribute("managers", e.getManagers());
 			session.setAttribute("reportsTo", e.getReportsTo());
 			session.setAttribute("problem",null);
 			resp.sendRedirect("Profile");
+			
 		}
 		else {
 			session.setAttribute("problem", "invalid user");

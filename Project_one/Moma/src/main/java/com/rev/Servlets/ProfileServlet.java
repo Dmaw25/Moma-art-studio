@@ -19,12 +19,15 @@ public class ProfileServlet extends HttpServlet{
 	
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		HttpSession session = req.getSession(false);
+		System.out.println("TEST");
 		if(session != null && session.getAttribute("username") != null)
 			{
+			System.out.println("Pass");
 				req.getRequestDispatcher("Profile.html").forward(req, resp);
 			}
 		else
 		{
+			System.out.println("Fail");
 			resp.sendRedirect("Login");
 		}
 	}

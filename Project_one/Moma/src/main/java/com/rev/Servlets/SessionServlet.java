@@ -30,14 +30,15 @@ public class SessionServlet extends HttpServlet {
 		if (session != null && session.getAttribute("username") != null) {
 			try {
 				System.out.println("test");
-				int userId = Integer.parseInt(session.getAttribute("Employee_ID").toString());
-				int managers = Integer.parseInt(session.getAttribute("Managers").toString());
-				int reportsTo = Integer.parseInt(session.getAttribute("ReportsTo").toString());
-				String username = session.getAttribute("UserName").toString();
-				String firstname = session.getAttribute("FirstName").toString();
-				String lastname = session.getAttribute("LastName").toString();
-				String password = session.getAttribute("Passwords").toString();
+				int userId = Integer.parseInt(session.getAttribute("id").toString());
+				int managers = Integer.parseInt(session.getAttribute("managers").toString());
+				int reportsTo = Integer.parseInt(session.getAttribute("reportsTo").toString());
+				String username = session.getAttribute("username").toString();
+				String firstname = session.getAttribute("firstName").toString();
+				String lastname = session.getAttribute("lastName").toString();
+				String password = session.getAttribute("password").toString();
 				Employee u = new Employee(userId, managers, username, password, firstname, lastname, reportsTo);
+				System.out.println(u);
 				response.getWriter().write((new ObjectMapper()).writeValueAsString(u));
 			} catch (Exception e) {
 				e.printStackTrace();
